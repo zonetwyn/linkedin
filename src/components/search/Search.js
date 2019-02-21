@@ -42,7 +42,7 @@ class SearchComponent extends Component {
                 index: 'companies'
             }
         }
-        axios.post('http://localhost:3001/search', body, config)
+        axios.post('http://157.230.221.10:3001/search', body, config)
         .then(res => {
             this.setState({
                 industries: res.data.aggregations.industries.buckets
@@ -123,7 +123,7 @@ class SearchComponent extends Component {
                 dataLoading: true,
                 search: true
             })
-            axios.post('http://localhost:3001/search', body, config)
+            axios.post('http://157.230.221.10:3001/search', body, config)
             .then(res => {
                 this.setState({
                     dataSource: res.data.hits.hits,
@@ -362,7 +362,7 @@ class SearchComponent extends Component {
             dataLoading: true,
             search: true
         })
-        axios.post('http://localhost:3001/search', body, config)
+        axios.post('http://157.230.221.10:3001/search', body, config)
         .then(res => {
             this.setState({
                 dataSource: res.data.hits.hits,
