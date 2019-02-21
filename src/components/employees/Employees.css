@@ -1,0 +1,25 @@
+.item-description i {
+    margin-right: .5rem;
+}
+
+.details .details-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details .details-informations {
+    margin-top: 2rem;
+}
+
+.details .details-username {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.ant-divider-horizontal {
+    margin: 12px 0;
+}

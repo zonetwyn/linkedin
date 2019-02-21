@@ -1,0 +1,32 @@
+.ant-layout-content {
+    height: 100%;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.ant-layout-footer {
+    border-top: 1px solid #d9dde2;
+    background: #eceff1;
+}
+
+.logo {
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+.logo h1 {
+    color: white;
+    position: relative;
+    bottom: 1.2rem;
+}
+
+.ant-layout {
+    background: #f5f7fa;
+}
+
+.ant-menu {
+    float: right;
+    marker-end: 2rem;
+}

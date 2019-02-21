@@ -1,0 +1,17 @@
+{
+  "name": "linkedin-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "zonetwyn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "elasticsearch": "^15.4.1",
+    "express": "^4.16.4"
+  }
+}
