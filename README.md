@@ -7,7 +7,7 @@
 * Now
     * Your **elastic search instance** will be available ont port **9200**
     * Insert your data to elasticsearch engine using `curl -XPOST 'localhost:9200/<INDEX>/_bulk' -H 'Content-type: application/json' --data-binary <INDEX_FILE>`
-    * Both index files are avalaible in the repository
+    * Both index files are avalaible in the **data** directory
     * Finally, open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
 ## Screenshots some screenshots of the app are avalaible in the screenshots directory
