@@ -10,6 +10,7 @@
     * Both index files are avalaible in the **data** directory
     * Finally, open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-## Screenshots some screenshots of the app are avalaible in the screenshots directory
+## Screenshots and preview
 
-The server in which the project was hosted online has been stopped, so the online preview is no longer available
+* Some screenshots of the app are avalaible in the screenshots directory
+* The server in which the project was hosted online has been stopped, so the online preview is no longer available
